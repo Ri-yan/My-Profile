@@ -1,0 +1,28 @@
+.contact{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  top: 60px;
+  bottom: 0px;
+  background-color: rgba(0,0,0,1);/*background-color*/
+  color: white;/*text color*/
+  font-family: "Poppins", sans-serif;
+  font-size: 1.3vw; /*viewport width vw for responsive text*/
+  font-style: italic;
+  height: 85vh;
+  border: 0.5px solid grey;
+  padding: 20px;/*space b/w text and border*/
+  margin: auto; /*space from outside the border*/
+}
+.footer{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 0px;
+  background-color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.3vw; /*viewport width vw for responsive text*/
+  font-style: italic;
+  text-align: center;
+}
