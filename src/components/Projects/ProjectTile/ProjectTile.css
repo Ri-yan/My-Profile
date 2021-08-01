@@ -1,0 +1,81 @@
+
+.list-items{
+  position:relative ;
+  width: 320px;
+  margin: 10px;
+  min-height: 21.9rem;
+  border: 0;
+  box-sizing: border-box;
+  /*background: linear-gradient(0deg, rgb(255, 221, 0), rgb(255, 56, 56));*/
+   /*background-image: url("./Ps.png");*/
+   background-size: cover;
+   box-shadow: 0px 0px 10px 0.1px;
+   background-repeat:no-repeat ;
+   background-size: 320px 21.9rem ;
+  border-radius: 10%;
+  overflow: hidden;
+}
+.list-cover{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-content: center;
+  position:absolute;
+  margin: 25px 0px 0px 0px;
+  min-height: 7rem;
+  border: 0px;
+  box-sizing: border-box;
+  border-radius: 11% 11% 30px 30px;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.4);
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  transition: min-height 1.5s;
+  transition-timing-function: ease;  
+}
+.share{
+  position: relative;
+  top: 50px;
+  bottom: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-end;
+  align-items: flex-end;
+  margin: 5px;
+}
+.m{
+  position: relative;
+  top: 1px;
+  margin: 0px 6px 10px 6px;
+  border: 0px;
+  font-family: 'MuseoModerno', cursive;
+  color: white;
+  border-radius: 20%;
+  padding: 2px;
+  box-shadow: 0px 0px 3px 0px;
+}
+.pname{
+  font-family: 'MuseoModerno', cursive;
+  color: white;
+  font-size: 2.4vw;
+}
+.list-cover:hover{
+  /*top: 20px;*/
+  min-height: 19rem;
+  color: black;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.Pimg {
+    position: absolute;
+    left: -10px;
+    top: 0;
+    height: 21.9rem;
+    width: auto;
+    background-size: cover;
+}

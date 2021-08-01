@@ -1,0 +1,51 @@
+.Pcover{
+  display:flex;
+  flex-direction: row;
+  background-color: rgba(241,241,241,1);
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.3vw; /*viewport width vw for responsive text*/
+  height: 100vh;
+  border: 0px;
+  padding: 20px;/*space b/w text and border*/
+  position: relative;
+}
+.coverimg{
+	height: 85vh;
+	width: 50vw;
+}
+.title{
+	display: flex;
+	align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 50vw;
+}
+.title-name{
+	font-family: 'MuseoModerno', cursive;
+	font-size: 5vw;
+}
+
+.project-grid{
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  background-color: rgba(241,241,241,1);
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.3vw;
+}
+@media only screen and (max-width: 900px) {
+   .Pcover{
+   	display: flex;
+   	flex-direction: column;
+   }
+   .coverimg{
+	   width: 100vw;
+    }
+    .title{
+    width: 100vw;
+    height: 50vh;
+    }
+}

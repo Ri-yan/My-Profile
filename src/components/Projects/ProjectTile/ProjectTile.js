@@ -1,12 +1,9 @@
 import React from 'react';
-import './Projects.css';
-
+import './ProjectTile.css';
 const ProjectTile = ({ project_name,code_link,live_link,img_id }) => {
   return (
-<div className='list-items' 
-style={{'background-image': 'url("https://i.stack.imgur.com/jGlzr.png")'}}
-
->
+<div className='list-items'> 
+          <img className='Pimg' src={img_id} alt='Pimage'/>
           <div className='list-cover'>
             <div className='pname'>{project_name}</div>
               <div className='share'>
