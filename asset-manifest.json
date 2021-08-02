@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/My-Profile/static/css/main.7b6d74b5.chunk.css",
+    "main.css": "/My-Profile/static/css/main.d7cc1566.chunk.css",
     "main.js": "/My-Profile/static/js/main.7cc19155.chunk.js",
     "main.js.map": "/My-Profile/static/js/main.7cc19155.chunk.js.map",
     "runtime-main.js": "/My-Profile/static/js/runtime-main.0a94fd45.js",
@@ -10,7 +10,7 @@
     "static/js/3.21ef31a3.chunk.js": "/My-Profile/static/js/3.21ef31a3.chunk.js",
     "static/js/3.21ef31a3.chunk.js.map": "/My-Profile/static/js/3.21ef31a3.chunk.js.map",
     "index.html": "/My-Profile/index.html",
-    "static/css/main.7b6d74b5.chunk.css.map": "/My-Profile/static/css/main.7b6d74b5.chunk.css.map",
+    "static/css/main.d7cc1566.chunk.css.map": "/My-Profile/static/css/main.d7cc1566.chunk.css.map",
     "static/js/2.21653c0d.chunk.js.LICENSE.txt": "/My-Profile/static/js/2.21653c0d.chunk.js.LICENSE.txt",
     "static/media/CBgen.8b384cc0.png": "/My-Profile/static/media/CBgen.8b384cc0.png",
     "static/media/landingpage.ef9e10ff.png": "/My-Profile/static/media/landingpage.ef9e10ff.png",
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.0a94fd45.js",
     "static/js/2.21653c0d.chunk.js",
-    "static/css/main.7b6d74b5.chunk.css",
+    "static/css/main.d7cc1566.chunk.css",
     "static/js/main.7cc19155.chunk.js"
   ]
 }
