@@ -47,7 +47,7 @@
   margin: 8px;
   transition: height 1s;
 }
-.rotate: hover{
+.rotate:hover{
   height: 210px;
 }
 .clearfix::after {
@@ -64,7 +64,7 @@
   animation-iteration-count: infinite;
   animation-direction: alternate;
   animation-timing-function: ease-out;
-}@keyframes wave {
+}@keyframes wave{
   from {transform: rotate(15deg);}
   to {transform: rotate(45deg);}
 }
