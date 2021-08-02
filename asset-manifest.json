@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/ri-yan/my-profile/static/css/main.3fbdb2ba.chunk.css",
-    "main.js": "/ri-yan/my-profile/static/js/main.90c8ea06.chunk.js",
-    "main.js.map": "/ri-yan/my-profile/static/js/main.90c8ea06.chunk.js.map",
-    "runtime-main.js": "/ri-yan/my-profile/static/js/runtime-main.17403756.js",
-    "runtime-main.js.map": "/ri-yan/my-profile/static/js/runtime-main.17403756.js.map",
-    "static/js/2.5409c1f9.chunk.js": "/ri-yan/my-profile/static/js/2.5409c1f9.chunk.js",
-    "static/js/2.5409c1f9.chunk.js.map": "/ri-yan/my-profile/static/js/2.5409c1f9.chunk.js.map",
-    "static/js/3.034f8c2c.chunk.js": "/ri-yan/my-profile/static/js/3.034f8c2c.chunk.js",
-    "static/js/3.034f8c2c.chunk.js.map": "/ri-yan/my-profile/static/js/3.034f8c2c.chunk.js.map",
+    "main.js": "/ri-yan/my-profile/static/js/main.8357e5be.chunk.js",
+    "main.js.map": "/ri-yan/my-profile/static/js/main.8357e5be.chunk.js.map",
+    "runtime-main.js": "/ri-yan/my-profile/static/js/runtime-main.8fcf4a74.js",
+    "runtime-main.js.map": "/ri-yan/my-profile/static/js/runtime-main.8fcf4a74.js.map",
+    "static/js/2.97bcefc9.chunk.js": "/ri-yan/my-profile/static/js/2.97bcefc9.chunk.js",
+    "static/js/2.97bcefc9.chunk.js.map": "/ri-yan/my-profile/static/js/2.97bcefc9.chunk.js.map",
+    "static/js/3.21ef31a3.chunk.js": "/ri-yan/my-profile/static/js/3.21ef31a3.chunk.js",
+    "static/js/3.21ef31a3.chunk.js.map": "/ri-yan/my-profile/static/js/3.21ef31a3.chunk.js.map",
     "index.html": "/ri-yan/my-profile/index.html",
     "static/css/main.3fbdb2ba.chunk.css.map": "/ri-yan/my-profile/static/css/main.3fbdb2ba.chunk.css.map",
-    "static/js/2.5409c1f9.chunk.js.LICENSE.txt": "/ri-yan/my-profile/static/js/2.5409c1f9.chunk.js.LICENSE.txt",
+    "static/js/2.97bcefc9.chunk.js.LICENSE.txt": "/ri-yan/my-profile/static/js/2.97bcefc9.chunk.js.LICENSE.txt",
     "static/media/CBgen.8b384cc0.png": "/ri-yan/my-profile/static/media/CBgen.8b384cc0.png",
     "static/media/landingpage.ef9e10ff.png": "/ri-yan/my-profile/static/media/landingpage.ef9e10ff.png",
     "static/media/newproject.5ad60960.jpg": "/ri-yan/my-profile/static/media/newproject.5ad60960.jpg",
@@ -22,9 +22,9 @@
     "static/media/smartbrain.380ca1da.png": "/ri-yan/my-profile/static/media/smartbrain.380ca1da.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.17403756.js",
-    "static/js/2.5409c1f9.chunk.js",
+    "static/js/runtime-main.8fcf4a74.js",
+    "static/js/2.97bcefc9.chunk.js",
     "static/css/main.3fbdb2ba.chunk.css",
-    "static/js/main.90c8ea06.chunk.js"
+    "static/js/main.8357e5be.chunk.js"
   ]
 }
