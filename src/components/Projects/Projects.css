@@ -75,6 +75,7 @@
   top: 40px;
   background-color: rgba(241,241,241,1);
   display: grid;
+  justify-content: center;
   grid-template-columns: repeat(auto-fill,minmax(300px,1fr))  ;
   grid-gap: 10px;
   justify-items: center;
@@ -167,3 +168,14 @@
     text-decoration: none;
     color: white;
 }*/
+
+
+@media only screen and (max-width: 300px) {
+  .projects{
+  width: 300px;
+
+}
+#l{
+     width: 300px;
+  }
+}

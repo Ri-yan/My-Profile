@@ -7,7 +7,6 @@ import Hello from './components/Hello/Hello.js';
 import Projects from './components/Projects/Projects.js';
 import Experience from './components/Experience/Experience.js';
 import Contact from './components/Contact/Contact.js';
-
 class App extends React.Component {
   constructor(){
       super();
@@ -27,11 +26,13 @@ onRouteChange = (route) =>{
           <Particles className="particles" 
               params={particlesOptions}
             />
+
           <Navigation onRouteChange={this.onRouteChange}/>
             { 
               this.state.route ==='home'
               ? <div>
               <Hello/>
+              
               <Contact/>
               </div>
               : (
@@ -50,3 +51,4 @@ onRouteChange = (route) =>{
    }
 }
 export default App;
+

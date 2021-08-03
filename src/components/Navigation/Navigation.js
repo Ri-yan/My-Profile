@@ -8,10 +8,10 @@ const Navigation =({onRouteChange,open})=>{
         <label for="drop" className="toggle">&#9776;</label>
         <input type="checkbox" id="drop" />
             <ul className="menu ">
-                <li onClick={()=>onRouteChange('home')} className='nav-links'><a href='#l'>Home</a></li>
-                <li onClick={()=>onRouteChange('projects')} className='nav-links'><a href=''>Projects</a></li>
-				<li onClick={()=>onRouteChange('experience')}className='nav-links'><a href=''>Experience</a></li>
-				<li onClick={()=>onRouteChange('contact')} className='nav-links'><a href=''>Resume</a></li>
+                <li onClick={()=>onRouteChange('home')} className='nav-links'><p>Home</p></li>
+                <li onClick={()=>onRouteChange('projects')} className='nav-links'><p >Projects</p></li>
+				<li onClick={()=>onRouteChange('experience')}className='nav-links'><p >Experience</p></li>
+				<li onClick={()=>onRouteChange('contact')} className='nav-links'><p >Resume</p></li>
             </ul>
         </nav>
 	);

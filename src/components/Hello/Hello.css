@@ -9,9 +9,22 @@
   color: black;
   font-family: "Poppins", sans-serif;
   font-size: 1.3vw; 
-  height: 80vh;
+  height: 70vh;
   padding: 10px 20px;
   margin: 50px 0px 25vh 0px; 
+}
+.hand{
+  position: relative;
+  margin: 0px 10px;
+  height: 20px;
+  animation-name: wave;
+  animation-duration: 0.8s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-out;
+}@keyframes wave{
+  from {transform: rotate(15deg);}
+  to {transform: rotate(45deg);}
 }
 .hi{
   display: inline-flex;
@@ -27,44 +40,26 @@
   margin: 10px 0;
   box-shadow: 0px 0px 12px 6px rgb(128 123 123 / 67%);
   object-fit: contain;
-  transition: height 1s;
+  transition: height 0.5s;
 }
 .userimg:hover{
-  opacity: 0.6;
-  height: 210px;
+  opacity: 0.9;
+  height: 202px;
 }
-.social{
-  display: flex;
-  position: relative;
-  bottom: 10px;
-  flex-direction: row;
-  align-items: center;
-  padding: 5px;
-  margin: 5px;
-}
-.rotate{
-  display: block;
-  margin: 8px;
-  transition: height 1s;
-}
-.rotate:hover{
-  height: 210px;
-}
+
 .clearfix::after {
   content: "";
   clear: both;
   display: table;
 }
-.hand{
-  position: relative;
-  margin: 0px 10px;
-  height: 20px;
-  animation-name: wave;
-  animation-duration: 0.8s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  animation-timing-function: ease-out;
-}@keyframes wave{
-  from {transform: rotate(15deg);}
-  to {transform: rotate(45deg);}
+
+
+@media only screen and (max-width: 600px) {
+   .hi{
+    font-size: 23px;
+  }
+
 }
+
+
+

@@ -54,11 +54,11 @@ nav ul li {
   }
 
 /* Styling the links */
-nav a {
+nav p {
   display:block;
   padding:8px 10px;  
   color:black;
-  font-size:17px;
+  font-size:2.2vh;
   text-decoration:none;
 }
 
@@ -66,7 +66,7 @@ nav a {
 nav ul li ul li:hover { background: #000000; }
 
 /* Background color change on Hover */
-nav a:hover { 
+nav p:hover { 
   background-color: rgba(255,255,255,1); 
 
 }
@@ -106,8 +106,8 @@ nav ul ul ul li {
 
   
 /* Change ' +' in order to change the Dropdown symbol */
-li > a:after { content:  ' +'; }
-li > a:only-child:after { content: ''; }
+li > p:after { content:  ' +'; }
+li > p:only-child:after { content: ''; }
 
 
 /* Media Queries
@@ -129,7 +129,7 @@ li > a:only-child:after { content: ''; }
 
   /* Hide the navigation menu by default */
   /* Also hide the  */
-  .toggle + a,
+  .toggle + p,
   .menu {
     display: none;
       background: rgba(255,255,255,1);
@@ -166,22 +166,22 @@ li > a:only-child:after { content: ''; }
     }
 
   nav ul ul .toggle,
-  nav ul ul a {
+  nav ul ul p {
     padding: 0 40px;
   }
 
-  nav ul ul ul a {
+  nav ul ul ul p {
     padding: 0 80px;
   }
 
-  nav a:hover,
+  nav p:hover,
   nav ul ul ul a {
     background-color: #00000017;
   }
   
   nav ul li ul li .toggle,
-  nav ul ul a,
-  nav ul ul ul a{
+  nav ul ul p,
+  nav ul ul ul p{
     padding:14px 20px;  
     color:#FFF;
     font-size:17px; 
@@ -189,7 +189,7 @@ li > a:only-child:after { content: ''; }
   
   
   nav ul li ul li .toggle,
-  nav ul ul a {
+  nav ul ul p {
     background-color: rgba(255,255,255,1); 
   }
 
@@ -229,7 +229,9 @@ li > a:only-child:after { content: ''; }
   }
 
 }
-
+.menu{
+  font-family: 'Tomorrow', sans-serif;
+}
 
 
 
@@ -250,6 +252,25 @@ li > a:only-child:after { content: ''; }
   padding: 20px;/*space b/w text and border*/
   margin: auto; /*space from outside the border*/
 }
+
+
+.navi{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255,255,255,1);/*background-color*/
+  color: black;/*text color*/
+  font-family: "Poppins", sans-serif;
+  font-size: 1.3vw; /*viewport width vw for responsive text*/
+  font-style: italic;
+  height: 6vh;
+  border: 0.5px rgba(130, 130, 130, 1);
+  box-shadow: -3px 4px 20px 1px rgb(128 128 128 / 33%);
+  padding: 20px;/*space b/w text and border*/
+  margin: auto; /*space from outside the border*/
+}
+
 .fixed-top {
     position: fixed;
     top: 0;
@@ -265,6 +286,14 @@ li > a:only-child:after { content: ''; }
 .nav-links{
   padding: 10px;
   margin: 5px;
+  border: 0.1px rgba(156, 156, 156, 0.2);
+  border-radius: 20px;
+  border-style: solid;
+}
+.nav-links{
+  padding: 0px;
+  margin: 2px 10px;
+  margin-top: 3px;
   border: 0.1px rgba(156, 156, 156, 0.2);
   border-radius: 20px;
   border-style: solid;

@@ -1,0 +1,60 @@
+
+.social {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    width: 50%;
+    top: 12%;
+    text-align: center;
+    transform: translateY(-50%);
+    background: #ffffffa6;
+    bottom: 10px;
+    margin: auto;
+}
+
+.social-links{
+  display: flex;
+  position: relative;
+  padding: 5px;
+  margin: 5px;
+}
+.social .link {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px dashed #ff3f3f1f;
+    background-clip: content-box;
+    padding: 10px;
+    transition: .5s;
+    color: #D7D0BE;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 40px;
+    background-color: white;
+}
+
+.social .link span {
+  display: block;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.social .link:hover {
+  padding: 15px;
+  color: white;
+  margin-left: -5px;
+  transform: translateX(10px) rotate(360deg);
+}
+
+/*.social .link.facebook {
+  background-color: #3B5998;
+  color: white;
+}*/

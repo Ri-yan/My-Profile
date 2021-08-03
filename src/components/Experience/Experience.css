@@ -20,3 +20,9 @@
 
   padding: 10px;
 }
+
+.c{
+  display: flex;
+  justify-content: center;
+  height: 150vh;
+}

@@ -26,3 +26,121 @@
   font-style: italic;
   text-align: center;
 }
+
+
+
+.contact{
+  background-image: url('./cover.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: black;
+  position: relative;
+  top: 0px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+    font-family: 'Tomorrow', sans-serif;
+}
+
+.h{
+  font-family: "Poppins", sans-serif;
+  color: rgba(0, 0, 0, 0.42);
+  position: relative;
+  font-size: 22vw;
+  font-weight: 700;
+  letter-spacing: 3vw;
+  margin: 0px auto;
+    top: 2vh;
+    z-index: 0;
+}
+.box{
+  position: absolute;
+  top: 33vh;
+  height: 65vh;
+  width: 60rem;
+  width: 62vw;
+  margin: auto;
+  border: 1px solid grey;
+  border-radius: 20px;
+    border-style: solid;
+}
+
+.discription{
+  background-color: #ffffffbd;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 35vh;
+  width: 100%;
+  border-radius: 20px 20px 0px 0px;
+  box-sizing: border-box;
+}
+.df{
+  font-size: 1.1em;
+    position: relative;
+/*    border: 1px solid black;
+*/    height: 25vh;
+    width: -webkit-fill-available;
+    overflow: hidden;
+  margin: 12px;
+    text-align: left;
+    padding: 10px;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: white;
+  position: absolute;
+  right: 5vw;
+  top: 7vh;
+  height: 30vh;
+  width: 21vw;
+  z-index: 1;
+  padding: 30px 5px;
+}
+.c{
+  background-color: #f73838bd;
+  height: 20vh;
+  width: -webkit-fill-available;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 5vh 0px;
+  border-radius: 0px 0px 20px 20px;
+}
+.b{
+  padding: 0px 50px;
+  border: 2px solid black;
+  background-color: #ff2e2e;
+}
+.i{
+  margin: 0px 20px;
+    padding: 10px;
+}
+.im{
+  margin: 0px 20px;
+    padding: 30px 10px;
+    overflow: scroll;
+}
+@media only screen and (max-width: 600px) {
+   .form{
+    position: relative;
+    width: 100%;
+    margin: 10px;
+  }
+  .form{
+    right: -16px;
+  }
+  .h{
+      top: 10vh;
+  }
+
+}
+.Fsec{
+  display: flex;
+  justify-content: flex-end;
+}
