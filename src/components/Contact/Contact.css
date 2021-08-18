@@ -1,146 +1,186 @@
-.contact{
-  display:flex;
-  flex-direction: row;
-  justify-content: center;
-  position: relative;
-  top: 60px;
-  bottom: 0px;
-  background-color: rgba(0,0,0,1);/*background-color*/
-  color: white;/*text color*/
-  font-family: "Poppins", sans-serif;
-  font-size: 1.3vw; /*viewport width vw for responsive text*/
-  font-style: italic;
-  height: 85vh;
-  border: 0.5px solid grey;
-  padding: 20px;/*space b/w text and border*/
-  margin: auto; /*space from outside the border*/
-}
-.footer{
-  display: flex;
-  justify-content: center;
-  position: relative;
-  bottom: 0px;
-  background-color: white;
-  font-family: "Poppins", sans-serif;
-  font-size: 1.3vw; /*viewport width vw for responsive text*/
-  font-style: italic;
-  text-align: center;
-}
-
-
-
-.contact{
-  background-image: url('./cover.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: black;
-  position: relative;
-  top: 0px;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: stretch;
-    font-family: 'Tomorrow', sans-serif;
-}
-
-.h{
-  font-family: "Poppins", sans-serif;
-  color: rgba(0, 0, 0, 0.42);
-  position: relative;
-  font-size: 22vw;
+.btext{
+   position:relative;
+   top: 0px;
+   right: 0px;
+   left: 0px;
+   font-family: "Poppins", sans-serif;
+   color: rgba(0, 0, 0, 0.42);
+   font-size: 16vw;
+   /*font-size: 18em;*/
   font-weight: 700;
   letter-spacing: 3vw;
-  margin: 0px auto;
-    top: 2vh;
-    z-index: 0;
-}
-.box{
-  position: absolute;
-  top: 33vh;
-  height: 65vh;
-  width: 60rem;
-  width: 62vw;
-  margin: auto;
-  border: 1px solid grey;
-  border-radius: 20px;
-    border-style: solid;
+
+
 }
 
-.discription{
-  background-color: #ffffffbd;
+.contact{
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  height: 35vh;
-  width: 100%;
-  border-radius: 20px 20px 0px 0px;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  position: relative;
+  bottom: 6em;
+  top: 60px;
+}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
 }
-.df{
-  font-size: 1.1em;
-    position: relative;
-/*    border: 1px solid black;
-*/    height: 25vh;
-    width: -webkit-fill-available;
-    overflow: hidden;
-  margin: 12px;
-    text-align: left;
-    padding: 10px;
+
+.btext{
+  /* position:relative;
+   top: 0px;
+   right: 0px;
+   left: 0px;*/
+   font-family: "Poppins", sans-serif;
+   color: rgba(0, 0, 0, 0.42);
+   font-size: 15vw;
+   /*font-size: 18em;*/
+  font-weight: 700;
+  letter-spacing: 3vw;
+
+  position: fixed;
+    left: 60px;
+    right: 0px;
+    top: 0px;
+
+}
+html {
+  font-family: "Montserrat";
+}
+section {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ /* background-color: #1e1f26;*/
+   background-image: url('./cover.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+  width: -webkit-fill-available;
+}
+.container {
+ z-index: 1;
+  width: 90%;
+  max-width: 1000px;
+  margin: 50px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: aqua; */
+}
+.left {
+  width: 100%;
+  height: 450px;
+  background: url(https://images.unsplash.com/photo-1542662565-7e4b66bae529?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=564&q=80)
+    no-repeat center / cover;
+    background: url('./cover1.jpg')
+    no-repeat center / cover;
+    background: rgba(254, 254, 254, 0.6);
+  border-radius: 8px;
+  display: flex;
+     box-shadow: 0px 0px 20px 4px;
 }
 
-.form{
+.des{
+  display: flex;
+    width: -webkit-fill-available;
+   /* border: 1px solid white;*/
+    padding: 20px;
+    margin: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 1.7em;
+    padding-top: 40px;
+}
+.right {
+  width: 30%;
+  min-height: 400px;
+  background-color: #303137;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  border-radius: 8px;
+  color: white;
+  margin-left: -150px;
+   margin-left: -35%;
+}
+.right h1 {
+  font-size: 25px;
+  font-weight: lighter;
+}
+.right p {
+  margin: 20px 0;
+  font-weight: 500;
+  line-height: 25px;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
-  background-color: white;
-  position: absolute;
-  right: 5vw;
-  top: 7vh;
-  height: 30vh;
-  width: 21vw;
-  z-index: 1;
-  padding: 30px 5px;
-}
-.c{
-  background-color: #f73838bd;
-  height: 20vh;
-  width: -webkit-fill-available;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
   align-items: center;
-  padding: 5vh 0px;
-  border-radius: 0px 0px 20px 20px;
 }
-.b{
-  padding: 0px 50px;
-  border: 2px solid black;
-  background-color: #ff2e2e;
+.right a {
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: white;
+  color: black;
+  padding: 20px 30px;
+  display: inline-block;
+  letter-spacing: 2px;
+  width: 20vw;
+  width: 38vh;
 }
-.i{
-  margin: 0px 20px;
-    padding: 10px;
+.input,.message {
+  width: 20vw;
+  width: 38vh;
+  height: 6vh;
+  padding: 2px;
 }
-.im{
-  margin: 0px 20px;
-    padding: 30px 10px;
-    overflow: scroll;
+.message{
+  height: 1vh;
+  padding: 6vh 3vh;
+  padding: 0px;
+  width: 38vh;
+  height: 15vh;
+  padding: 2px;
 }
-@media only screen and (max-width: 600px) {
-   .form{
-    position: relative;
+@media only screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
     width: 100%;
-    margin: 10px;
+    margin: 0 20px;
   }
-  .form{
-    right: -16px;
+  .left {
+    width: 100%;
+    height: 400px;
   }
-  .h{
-      top: 10vh;
+  .right {
+    width: 100%;
+    margin: 0;
+    margin-top: -100px;
+  }
+  p{
+    width: 100%;
+    margin: 0;
   }
 
 }
-.Fsec{
-  display: flex;
-  justify-content: flex-end;
+
+.infoc{
+font-size: 1.5em;
+margin: 10px;
+}
+.info{
+  margin: 10px;
+  font-size: 0.8em;
+}
+.btn{
+  box-shadow: ;
 }

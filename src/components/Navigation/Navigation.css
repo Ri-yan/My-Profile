@@ -270,13 +270,17 @@ li > p:only-child:after { content: ''; }
   padding: 20px;/*space b/w text and border*/
   margin: auto; /*space from outside the border*/
 }
-
+.menu{
+  position: relative;
+  top: 10px;
+}
 .fixed-top {
     position: fixed;
     top: 0;
     right: 0;
     left: 0;
     z-index: 1030;
+    height: fit-content;
 }
 .nav-elements{
   display:inline-flex;
