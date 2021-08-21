@@ -5,7 +5,7 @@ const Navigation =({onRouteChange,open})=>{
 		return(		
 	<nav className='fixed-top'>
      <div id="logo" className='nav-profile' onClick={()=>onRouteChange('contact')}>Riyan</div>
-        <label for="drop" className="toggle">&#9776;</label>
+        <label htmlFor="drop" className="toggle">&#9776;</label>
         <input type="checkbox" id="drop" />
             <ul className="menu ">
                 <li onClick={()=>onRouteChange('home')} className='nav-links'><p>Home</p></li>

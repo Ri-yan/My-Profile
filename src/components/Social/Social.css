@@ -29,7 +29,7 @@
     border-radius: 50%;
     border: 2px dashed #ff3f3f1f;
     background-clip: content-box;
-    padding: 10px;
+    /*padding: 10px;*/
     transition: .5s;
     color: #D7D0BE;
     margin-left: 10px;
@@ -52,6 +52,7 @@
   color: white;
   margin-left: -5px;
   transform: translateX(10px) rotate(360deg);
+  padding: 0px;
 }
 
 /*.social .link.facebook {
