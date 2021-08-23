@@ -1,17 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100&display=swap');
-.container{
-    display: grid;
-    grid-gap: 10px; /*giving gap b/w grids*/
-    /*grid-template-columns: 350px 350px ; not responsive*/ 
-    /*grid-template-columns: 20% 25% 25%; good in terms of % but still not responsive*/
-    grid-template-columns: 1fr  ;
-    /*fr=fraction on screen and in terms of item sizea */
-    /*keyword like auto can be used to resize grid content*/
-    /*function like repeat(no.of column/row,col/row width in fr) to repeat the layout*/
-    grid-template-rows: 1fr;/*for row layout also*/
-
-}   
-.container{
+.Mcontainer{
      /*the most trusted willbe*/
     grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
     /*grid-template-rows: repeat(auto-fill,minmax(200px,1fr));*/
@@ -20,6 +8,8 @@
     font-family: 'Urbanist', sans-serif;
     font-weight: bold;
     color: black;
+    position: relative;
+    top: 20vh;
 }
 
 
@@ -28,7 +18,7 @@
     background: #56B870; /* Old browsers */
 }
 
-.box{
+.Mbox{
   margin: 20px auto;
   display: flex;
   flex-direction: column;
@@ -40,10 +30,10 @@
   box-shadow: -19px 20px 20px 2px;
   font-size: 1.1em;
 }
-.name{
+.Mname{
   margin: 15px 30px;
 }
-.message{
+.Mmessage{
   margin: 20px 30px 30px 20px;
   padding: 10px 10px 10px 20px;
   display: flex;
@@ -54,7 +44,7 @@
   box-shadow: inset 0px 0px 9px 0px;
   font-size: 1.2em;
 }
-.time{
+.Mtime{
   margin: 10px 20px;
   display: flex;
   align-items: flex-end;

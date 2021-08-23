@@ -7,15 +7,8 @@ import Hello from './components/Hello/Hello.js';
 import Projects from './components/Projects/Projects.js';
 import Experience from './components/Experience/Experience.js';
 import Contact from './components/Contact/Contact.js';
+import MessageSection from './components/MessageSection/MessageSection.js';
 
-// const initialState={
-//       user:{
-//           id:'',
-//           name:'',
-//           email:'',
-//           message:''
-//       }
-//     }
 
 class App extends React.Component {
   constructor(){
@@ -31,11 +24,14 @@ class App extends React.Component {
       }
     }
 }
-// componentDidMount(){
-//   fetch('http://localhost:3000/')
-//   .then(response=>response.json())
-//   .then(console.log) 
-// }
+
+// getData=()=>{
+//     fetch('http://localhost:3000/').then(response=>{
+//         return response.json();
+//       }).then(data=>{
+//         console.log(data)
+//       })
+//  }
 
 loadUser = (data) => {
       this.setState({user: {
@@ -47,11 +43,10 @@ loadUser = (data) => {
       }})
     }
 
-
 onRouteChange = (route) =>{
     this.setState({route:route});
   }
-    render() {
+    render(){
       return (
         <div className="App">
           {/*<Particles className="particles" 
@@ -72,7 +67,16 @@ onRouteChange = (route) =>{
                   :(
                   this.state.route ==='experience'
                   ?<Experience/>
-                  :<Contact/>
+                  :(this.state.route ==='message'
+                    ?<MessageSection
+                    name={this.state.name}
+                    email={this.state.email}
+                    message={this.state.message}
+                    id={this.state.id}
+                    />
+                    :<Contact/>
+                    )
+                  
                 )
                   
                 )
@@ -83,3 +87,7 @@ onRouteChange = (route) =>{
 }
 export default App;
 
+/*
+
+ create table users(id serial not null,name varchar(100),email text not null,message varchar(600),joined timestamp not null);
+*/

@@ -37,10 +37,11 @@ class Contact extends React.Component{
 			.then(user=>{
 				if(user.id){
 					this.props.loadUser(user);
-			
-		document.getElementById("click").innerHTML = "Success";
-	
+					document.getElementById("click").innerHTML = "Success";
 					console.log('success')
+				}
+				else{
+					alert('error');
 				}
 			}) 
 	}
@@ -51,8 +52,8 @@ class Contact extends React.Component{
 	<div className='contact'>
 	<div className='btext'> Contact</div>
 		<section>
-		  <div class="container">
-		    <div class="left">
+		  <div className="container">
+		    <div className="left">
 			    <div className='des'>
 			    	<div className='infoc'>Everything Here Folks!</div>
 			    	<div className='info'>📞1234567890</div>
@@ -63,7 +64,7 @@ class Contact extends React.Component{
 		   <div className="right">
 		      <div className="content">
 		        <h1>Say Somthing..</h1>
-		        <p>				
+		        <div className='form'>				
 			        <input 
 			        className="input"  
 			        type="text"  name="name"   
@@ -99,7 +100,7 @@ class Contact extends React.Component{
 						  </button>
 						</div>
 					</div>
-				</p>
+				</div>
 		      </div>
 		    </div>
 		  </div>

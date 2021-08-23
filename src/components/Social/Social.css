@@ -27,7 +27,7 @@
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    border: 2px dashed #ff3f3f1f;
+   /* border: 2px dashed #ff3f3f1f;*/
     background-clip: content-box;
     /*padding: 10px;*/
     transition: .5s;
