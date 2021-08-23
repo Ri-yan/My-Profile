@@ -73,12 +73,11 @@ onRouteChange = (route) =>{
                     email={this.state.email}
                     message={this.state.message}
                     id={this.state.id}
+                    joined={this.state.joined}
                     />
                     :<Contact/>
                     )
-                  
                 )
-                  
                 )
             }
         </div>

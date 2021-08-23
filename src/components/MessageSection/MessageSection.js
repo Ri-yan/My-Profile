@@ -1,19 +1,16 @@
 import React from 'react';
 import './MessageSection.css';
-import M from './constant';
 import Mcard from './Mcard';
 
-// const MessageSection=()=>{
-// return(
-  class MessageSection extends React.Component{
+class MessageSection extends React.Component{
     constructor(){
       super();
       this.state={
-        list:''
+        list:[]
       };
     }
   componentDidMount(){
-     fetch('https://mighty-savannah-87191.herokuapp.com/').then(response=>{
+     fetch('http://localhost:3000/').then(response=>{
         return response.json();
       }).then(data=>{
         this.setState({
@@ -21,12 +18,8 @@ import Mcard from './Mcard';
     })
       })
  }
-
     render(){
-const m=[this.state.list];
-console.log('m=',m[0])
-         
-
+    const m=this.state.list;
       return(
          <div className="grid-wrap  tc" >
           {
@@ -38,13 +31,12 @@ console.log('m=',m[0])
                   name={m[i].name}
                   email={m[i].email}
                   message={m[i].message}
+                  joined={m[i].joined}
                   />
               );
             })
           }
-        </div>
-    
-       
+        </div>    
 	);
 }
 }

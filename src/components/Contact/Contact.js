@@ -24,7 +24,7 @@ class Contact extends React.Component{
 		this.setState({Message:event.target.value})
 	}
 	onSubmitMessage=()=>{
-		fetch('https://mighty-savannah-87191.herokuapp.com/message',{
+		fetch('http://localhost:3000/message',{
 			method:'post',
 			headers:{'Content-Type':'application/json'},
 			body:JSON.stringify({
@@ -78,6 +78,8 @@ class Contact extends React.Component{
 					name="email-address"   
 					id="email-address" 
 					placeholder="email"
+					pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]" required
+          			title="Please enter a valid email"
 					onChange={this.onEmailChange}
 					/>
 					<input 
