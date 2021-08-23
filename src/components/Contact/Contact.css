@@ -9,10 +9,7 @@
    /*font-size: 18em;*/
   font-weight: 700;
   letter-spacing: 3.2vw;
-
-
 }
-
 .contact{
   display: flex;
   flex-direction: column;
@@ -26,7 +23,7 @@
   background-image: url('./cover.jpg');
   background-position: center center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  /*background-attachment: fixed;*/
   background-size: cover;
 }
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");

@@ -1,5 +1,5 @@
 import React from 'react';
-import './Hello.css';
+import './Home.css';
 import profile from './profile.png';
 import Typewriter from 'typewriter-effect';
 import Social from '../Social/Social.js';
@@ -15,18 +15,15 @@ import particlesOptions from './Particle/Particle.js';
 			.start();
 				}}
 />
-
-const Hello=()=>{
-
+const Home=()=>{
 		return(
 		<div className='hello clearfix' id='1'>
 		<Particles className="particles" 
               params={particlesOptions}
             />
-
 			<div className='hi'>Hi<span className='hand' role="img" aria-labelledby="wavinghand">👋</span> I'm 
 <span style={{ opacity:'0%' }}>_</span>
-<Typewriter
+								<Typewriter
 								onInit={(typewriter)=>{
 									typewriter
 										.typeString("Riyan")
@@ -60,7 +57,6 @@ const Hello=()=>{
 		
 	);
 		
-	
 }
-export default Hello;
+export default Home;
 

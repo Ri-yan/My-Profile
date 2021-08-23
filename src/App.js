@@ -1,14 +1,12 @@
 import React from 'react';
 import './App.css';
-// import Particles from 'react-particles-js';
-// import particlesOptions from './Particle/Particle.js';
 import Navigation from './components/Navigation/Navigation.js';
-import Hello from './components/Hello/Hello.js';
+import Home from './components/Home/Home.js';
 import Projects from './components/Projects/Projects.js';
 import Experience from './components/Experience/Experience.js';
 import Contact from './components/Contact/Contact.js';
 import MessageSection from './components/MessageSection/MessageSection.js';
-
+import AdminLogin from './components/Admin/Admin.js';
 
 class App extends React.Component {
   constructor(){
@@ -24,15 +22,6 @@ class App extends React.Component {
       }
     }
 }
-
-// getData=()=>{
-//     fetch('http://localhost:3000/').then(response=>{
-//         return response.json();
-//       }).then(data=>{
-//         console.log(data)
-//       })
-//  }
-
 loadUser = (data) => {
       this.setState({user: {
         id: data.id,
@@ -42,40 +31,35 @@ loadUser = (data) => {
         joined: data.joined
       }})
     }
-
 onRouteChange = (route) =>{
     this.setState({route:route});
   }
     render(){
       return (
         <div className="App">
-          {/*<Particles className="particles" 
-              params={particlesOptions}
-            />*/}
-
           <Navigation onRouteChange={this.onRouteChange}/>
             { 
               this.state.route ==='home'
-              ? <div>
-              <Hello/>
-              
-              <Contact loadUser={this.loadUser}/>
-              </div>
-              : (
-                  this.state.route ==='projects'
-                  ?<Projects/>
-                  :(
-                  this.state.route ==='experience'
-                  ?<Experience/>
+              ?<div>
+                <Home/>
+                <Contact loadUser={this.loadUser}/>
+                </div>
+              :(
+                 this.state.route ==='projects'
+                 ?<Projects/>
+                 :(
+                 this.state.route ==='experience'
+                 ?<Experience/>
                   :(this.state.route ==='message'
                     ?<MessageSection
-                    name={this.state.name}
-                    email={this.state.email}
-                    message={this.state.message}
-                    id={this.state.id}
-                    joined={this.state.joined}
+                        name={this.state.name}
+                        email={this.state.email}
+                        message={this.state.message}
+                        id={this.state.id}
+                        joined={this.state.joined}
                     />
-                    :<Contact/>
+                    :(this.state.route ==='admin'
+                      ?<AdminLogin onRouteChange={this.onRouteChange}/>:<Contact/>)
                     )
                 )
                 )
@@ -85,8 +69,3 @@ onRouteChange = (route) =>{
    }
 }
 export default App;
-
-/*
-
- create table users(id serial not null,name varchar(100),email text not null,message varchar(600),joined timestamp not null);
-*/

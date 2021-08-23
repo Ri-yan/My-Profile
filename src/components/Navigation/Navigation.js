@@ -4,9 +4,7 @@ import './Navigation.css';
 const Navigation =({onRouteChange,open,getData})=>{
 		return(		
 	<nav className='fixed-top'>
-	     {/*<div id="logo" className='nav-profile' onClick={()=>{onRouteChange('message');getData();}}>Riyan</div>*/}
-
-     <div id="logo" className='nav-profile' onClick={()=>{onRouteChange('message')}}>Riyan</div>
+     <div id="logo" className='nav-profile' onClick={()=>{onRouteChange('admin')}}>Riyan</div>
         <label htmlFor="drop" className="toggle">&#9776;</label>
         <input type="checkbox" id="drop" />
             <ul className="menu ">

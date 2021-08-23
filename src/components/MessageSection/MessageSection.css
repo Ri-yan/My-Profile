@@ -1,23 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
 .Mcontainer{
-     /*the most trusted willbe*/
-    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
-    /*grid-template-rows: repeat(auto-fill,minmax(200px,1fr));*/
     display: flex;
     justify-content: center;
     font-family: 'Urbanist', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: bold;
     color: black;
     position: relative;
-    top: 20vh;
+    top: 15vh;
+    font-style: unset;
 }
-
-
-
-.green{
-    background: #56B870; /* Old browsers */
-}
-
 .Mbox{
   margin: 20px auto;
   display: flex;
@@ -29,27 +22,46 @@
   border-radius: 20px;
   box-shadow: -19px 20px 20px 2px;
   font-size: 1.1em;
+  color: black;
+  background: #19a974;
+  padding: 25px 0px;
+  height: 76vh;
 }
 .Mname{
   margin: 15px 30px;
+  color: black;
 }
 .Mmessage{
   margin: 20px 30px 30px 20px;
-  padding: 10px 10px 10px 20px;
+  padding: 10px 10px 5px 20px;
   display: flex;
   background: white;
-  min-height: 30vh;
+  min-height: 25vh;
   max-height: fit-content;
   width: -webkit-fill-available;
   box-shadow: inset 0px 0px 9px 0px;
-  font-size: 1.2em;
+  font-size: 1.1em;
+  color: black;
+  overflow: auto;
 }
 .Mtime{
   margin: 10px 20px;
   display: flex;
   align-items: flex-end;
+  color: black;
 }
 .grid-wrap{
   display: flex;
   flex-direction: column;
+  color: black;
+}
+
+@media only screen and (max-width: 600px) {
+   .Mbox{
+    width: 85%;
+   }
+   .Mmessage{
+   padding: 30px 18px 15px 18px;
+   }
+
 }
