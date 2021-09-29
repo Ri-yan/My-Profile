@@ -24,7 +24,7 @@ class Contact extends React.Component{
 		this.setState({Message:event.target.value})
 	}
 	onSubmitMessage=()=>{
-		fetch('http://localhost:3000/message',{
+		fetch('https://mighty-savannah-87191.herokuapp.com/message',{
 			method:'post',
 			headers:{'Content-Type':'application/json'},
 			body:JSON.stringify({

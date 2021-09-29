@@ -48,6 +48,8 @@ export const Pro = [
     project_name: 'Profolio',
     img_id:profolio,
     discription: 'Cool responsive Profile ',
+    code_link:'https://github.com/Ri-yan/profolio',
+    live_link:'https://ri-yan.github.io/profolio/',
     link: 'https://github.com/Ri-yan/profolio'
   },
   {

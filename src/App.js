@@ -1,12 +1,13 @@
 import React from 'react';
 import './App.css';
-import Navigation from './components/Navigation/Navigation.js';
+// import Navigation from './components/Navigation/Navigation.js';
 import Home from './components/Home/Home.js';
 import Projects from './components/Projects/Projects.js';
 import Experience from './components/Experience/Experience.js';
 import Contact from './components/Contact/Contact.js';
 import MessageSection from './components/MessageSection/MessageSection.js';
 import AdminLogin from './components/Admin/Admin.js';
+import Navigation2 from './components/Navigation2/Navigation.js';
 
 class App extends React.Component {
   constructor(){
@@ -37,7 +38,8 @@ onRouteChange = (route) =>{
     render(){
       return (
         <div className="App">
-          <Navigation onRouteChange={this.onRouteChange}/>
+{/*          <Navigation onRouteChange={this.onRouteChange}/>
+*/}          <Navigation2 onRouteChange={this.onRouteChange}/>
             { 
               this.state.route ==='home'
               ?<div>

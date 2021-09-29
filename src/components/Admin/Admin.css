@@ -51,5 +51,12 @@
    .f4{
     font-size: 5em;
    }
-
+}
+@media only screen and (max-height: 500px) {
+   .pa2{
+    padding: 0px;
+   }
+   .a4{
+    margin-bottom: 10px;
+   }
 }

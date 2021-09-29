@@ -16,7 +16,7 @@ class AdminLogin extends React.Component{
 		this.setState({signInPassword:event.target.value})
 	}
 	onSubmitSignin=()=>{
-				 if(this.state.signInEmail===''&&this.state.signInPassword===''){
+				 if(this.state.signInEmail==='admin'&&this.state.signInPassword==='admin'){
 				  this.props.onRouteChange('message');
 				 }
 				 else{

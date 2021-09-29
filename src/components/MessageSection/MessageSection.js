@@ -10,7 +10,7 @@ class MessageSection extends React.Component{
       };
     }
   componentDidMount(){
-     fetch('http://localhost:3000/').then(response=>{
+     fetch('https://mighty-savannah-87191.herokuapp.com/').then(response=>{
         return response.json();
       }).then(data=>{
         this.setState({

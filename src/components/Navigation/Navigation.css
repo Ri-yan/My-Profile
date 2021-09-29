@@ -303,6 +303,7 @@ li > p:only-child:after { content: ''; }
   border-style: solid;
 }
 .nav-profile{
+  color: black;
   display:inline-flex;
   justify-content: flex-start;
   align-items: center;

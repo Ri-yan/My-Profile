@@ -309,3 +309,10 @@ button:hover span{
 
 
 /******/
+@media only screen and (max-width: 768px) {
+    .contact{
+        position: relative;
+        top: 90px;
+    }
+
+}
