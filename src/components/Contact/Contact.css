@@ -284,8 +284,8 @@ input[type=text]:focus {
    backdrop-filter:blur(2px);
  }
  .right {
-   width: 100%;
-   margin: 0;
+   width: -webkit-fill-available;
+   margin: 5px;
    margin-top: -100px;
  }
  p{
@@ -293,8 +293,10 @@ input[type=text]:focus {
    margin: 0;
  }
  .infoc{
-font-size: 1em;
-margin: 10px;
+   font-size: 19px;
+   text-align: center;
+   margin-top: 30px;
+
 }
 .email{
  font-size: 2vh;
