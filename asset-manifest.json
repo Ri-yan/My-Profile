@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/My-Profile/static/css/main.ad0bda6b.chunk.css",
-    "main.js": "/My-Profile/static/js/main.7c181cd8.chunk.js",
-    "main.js.map": "/My-Profile/static/js/main.7c181cd8.chunk.js.map",
+    "main.css": "/My-Profile/static/css/main.be14d8fe.chunk.css",
+    "main.js": "/My-Profile/static/js/main.3e525e45.chunk.js",
+    "main.js.map": "/My-Profile/static/js/main.3e525e45.chunk.js.map",
     "runtime-main.js": "/My-Profile/static/js/runtime-main.9c4f192d.js",
     "runtime-main.js.map": "/My-Profile/static/js/runtime-main.9c4f192d.js.map",
     "static/js/2.e19e7c8e.chunk.js": "/My-Profile/static/js/2.e19e7c8e.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.cddbb689.chunk.js": "/My-Profile/static/js/3.cddbb689.chunk.js",
     "static/js/3.cddbb689.chunk.js.map": "/My-Profile/static/js/3.cddbb689.chunk.js.map",
     "index.html": "/My-Profile/index.html",
-    "static/css/main.ad0bda6b.chunk.css.map": "/My-Profile/static/css/main.ad0bda6b.chunk.css.map",
+    "static/css/main.be14d8fe.chunk.css.map": "/My-Profile/static/css/main.be14d8fe.chunk.css.map",
     "static/js/2.e19e7c8e.chunk.js.LICENSE.txt": "/My-Profile/static/js/2.e19e7c8e.chunk.js.LICENSE.txt",
     "static/media/Authonly.a149c7e9.png": "/My-Profile/static/media/Authonly.a149c7e9.png",
     "static/media/CBgen.8b384cc0.png": "/My-Profile/static/media/CBgen.8b384cc0.png",
@@ -33,7 +33,7 @@
   "entrypoints": [
     "static/js/runtime-main.9c4f192d.js",
     "static/js/2.e19e7c8e.chunk.js",
-    "static/css/main.ad0bda6b.chunk.css",
-    "static/js/main.7c181cd8.chunk.js"
+    "static/css/main.be14d8fe.chunk.css",
+    "static/js/main.3e525e45.chunk.js"
   ]
 }
