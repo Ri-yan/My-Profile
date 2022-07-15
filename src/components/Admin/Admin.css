@@ -40,14 +40,14 @@
     background-color: black;
 }
 .a4{
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
     font-size: 2em;
 }
 @media only screen and (max-width: 600px) {
-   .abox{
-    width: 70%;
-    height: 45%;
-   }
+    .abox {
+        width: 80vw;
+        height: 79em;
+    }
    .f4{
     font-size: 5em;
    }
@@ -55,8 +55,9 @@
 @media only screen and (max-height: 500px) {
    .pa2{
     padding: 0px;
+    height: 2em;
    }
    .a4{
-    margin-bottom: 10px;
+    margin-bottom: 0px;
    }
 }

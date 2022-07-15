@@ -40,7 +40,7 @@
   max-height: fit-content;
   width: -webkit-fill-available;
   box-shadow: inset 0px 0px 9px 0px;
-  font-size: 1.1em;
+  font-size: 1em;
   color: black;
   overflow: auto;
 }
@@ -56,6 +56,27 @@
   color: black;
 }
 
+#re{
+  margin: 20px;
+  font-size: 1em;
+  position: relative;
+  top: 20vh;
+  color: black;
+  display: flex;
+  align-items: flex-end;
+  border: 0.5px solid black;
+  width: 100px;
+}
+.reply {
+  background: #27621c;
+  color: black;
+  width: 70px;
+  height: 25px;
+  border: 1px solid #0000000f;
+  border-radius: 20px;
+  position: relative;
+  right: -24px;
+}
 @media only screen and (max-width: 600px) {
    .Mbox{
     width: 85%;

@@ -17,23 +17,24 @@
 }
 .list-cover{
   display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-content: center;
-  position:absolute;
-  margin: 25px 0px 0px 0px;
-  min-height: 7rem;
-  border: 0px;
-  box-sizing: border-box;
-  border-radius: 11% 11% 30px 30px;
-  overflow: hidden;
-  background-color: rgba(0, 0, 0, 0.4);
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 1;
-  transition: min-height 1.5s;
-  transition-timing-function: ease;  
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: center;
+    position: absolute;
+    margin: 25px 0px 0px 0px;
+    min-height: 7rem;
+    border: 0px;
+    box-sizing: border-box;
+    border-radius: 11% 11% 30px 30px;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.062);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    transition: min-height 1.5s;
+    transition-timing-function: ease;
+    backdrop-filter: blur(10px);
 }
 .share{
   position: relative;
@@ -61,6 +62,8 @@
   font-family: 'MuseoModerno', cursive;
   color: white;
   font-size: 30px;
+  color: #b99635;
+
 }
 .list-cover:hover{
   /*top: 20px;*/

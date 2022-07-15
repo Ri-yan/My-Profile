@@ -15,18 +15,22 @@ class AdminLogin extends React.Component{
 	onPasswordChange=(event)=>{
 		this.setState({signInPassword:event.target.value})
 	}
-	onSubmitSignin=()=>{
-				 if(this.state.signInEmail==='admin'&&this.state.signInPassword==='admin'){
-				  this.props.onRouteChange('message');
-				 }
-				 else{
-				 	alert("Invalid Login");
-				 }
+	onSubmitSignin=(e)=>{
+				e.preventDefault();
+				try {
+					if(this.state.signInEmail==='admin@admin.com'&&this.state.signInPassword==='admin'){
+						this.props.onRouteChange('message');
+					   }
+					   else alert("something went wrong");
+
+				} catch (error) {
+					alert(error)
+				}
 			}
 render(){
 	//const {onRouteChange}=this.props;
 	return(
-		<div className='admin'>
+		<form onSubmit={this.onSubmitSignin} className='admin'>
 			<div className='abox'>
 			<div className='f4 a4'>Admin Login</div>
 			<label className="db fw6 lh-copy f4 " htmlFor="email-address">Email</label>
@@ -46,12 +50,11 @@ render(){
  		        title="Password" 
  		        onChange={this.onPasswordChange}/>
  		      <input className="f4 b ph3 pv2 input-reset ba b--black bg-transparent-red grow pointer f4 dib w-70 pa2" 
- 		      onClick={this.onSubmitSignin}
  		      type="submit" 
  		      title="Click To Submit" 
 		      value="Sign in"/>
 </div>
-		</div>
+		</form>
 		);
 }
 }

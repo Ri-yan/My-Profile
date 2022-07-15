@@ -6,7 +6,8 @@ class MessageSection extends React.Component{
     constructor(){
       super();
       this.state={
-        list:[]
+        list:[],
+        loading:true
       };
     }
   componentDidMount(){
@@ -14,7 +15,8 @@ class MessageSection extends React.Component{
         return response.json();
       }).then(data=>{
         this.setState({
-          list: data
+          list: data,
+          loading:false
     })
       })
  }
@@ -23,6 +25,7 @@ class MessageSection extends React.Component{
       return(
          <div className="grid-wrap  tc" >
           {
+            this.loading?<h1>loading</h1>:
             m.map((name, i) => {
               return (
                 <Mcard
@@ -34,7 +37,7 @@ class MessageSection extends React.Component{
                   joined={m[i].joined}
                   />
               );
-            })
+            }).reverse()
           }
         </div>    
 	);

@@ -1,12 +1,17 @@
 import React from 'react';
 import './ProjectCover.css';
+import projectCover from './projectCover.png'
 const ProjectCover=()=>{
 	return(
 			<div className='Pcover' >
-				<img className='coverimg' src="https://c.pxhere.com/images/95/69/e3a656b9fe407492d69728d865e9-1639627.jpg!d"  alt="programmer"/>
+				<img className='coverimg' src={projectCover}  alt="programmer"/>
 				<div className='title'>
 					<div className='title-name'>
-						My Projects;<div className='nav-links' style={{'font-size':'1.5vw'}} onClick='#l'><a href='#l' className='ch' style={{'text-decoration':'none',color:'black'}}>Here</a></div>
+						My Projects;<div className='nav-links ch' style={{'font-size':'1.5vw'}} onClick={()=>{window.scroll({
+  top: 700,
+  left: 0,
+  behavior: 'smooth'
+});}}><a href='#' className='ch' style={{'textDecoration':'none',color:'black'}}>Click Here</a></div>
 					</div>
 				</div>			
 			</div>

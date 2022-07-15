@@ -5,6 +5,13 @@ import profolio from './assets/profolio.png';
 import samplewebsite from './assets/samplewebsite.jpg';
 import smartbrain from './assets/smartbrain.png';
 import newproject from './assets/newproject.jpg';
+import ELearn from './assets/ELearn.png';
+import Authonly from './assets/Authonly.png';
+import Eshop from './assets/Eshop.png';
+import LetsC from './assets/LetsC.png';
+import editor from './assets/editor.png';
+import dictionary from './assets/dictionary.png';
+import typing from './assets/typing.png';
 
 export const Pro = [
   {
@@ -72,10 +79,73 @@ export const Pro = [
   },
   {
     id: 8,
+    img_id:ELearn,
+    code_link:'https://github.com/Ri-yan/E-Learn',
+    live_link:'https://ri-yan.github.io/E-Learn/',
+    project_name: 'E-Learn',
+    discription: 'Learning website',
+    link: 'Sherwood@rosamond.me'
+  },
+  {
+    id: 9,
+    img_id:Eshop,
+    code_link:'https://github.com/Ri-yan/E-shop',
+    live_link:'https://ri-yan.github.io/E-shop/',
+    project_name: 'E-shop',
+    discription: 'E-commerce website',
+    link: 'Sherwood@rosamond.me'
+  },
+  {
+    id: 10,
+    img_id:LetsC,
+    code_link:'https://github.com/Ri-yan/Let-s-Chatt-New',
+    live_link:'https://ri-yan.github.io/Let-s-Chatt-New/',
+    project_name: 'Lets Chatt',
+    discription: 'Adding Soon',
+    link: 'Sherwood@rosamond.me'
+  },
+  {
+    id: 11,
+    img_id:Authonly,
+    code_link:'https://github.com/Ri-yan/Authentication-only',
+    live_link:'https://authentication-only.netlify.app/',
+    project_name: 'Authentication-only',
+    discription: 'Simple Authentication System',
+    link: 'Sherwood@rosamond.me'
+  },
+  {
+    id: 12,
     img_id:newproject,
     code_link:'',
     live_link:'',
     project_name: 'Project 8',
+    discription: 'Adding Soon',
+    link: 'Sherwood@rosamond.me'
+  },
+  {
+    id: 13,
+    img_id:dictionary,
+    code_link:'',
+    live_link:'',
+    project_name: 'Talking Dictionary',
+    discription: 'Adding Soon',
+    link: 'Sherwood@rosamond.me'
+  },
+  {
+    id: 14,
+    img_id:typing,
+    code_link:'https://github.com/Ri-yan/TypingMaster',
+    live_link:'https://github.com/Ri-yan/TypingMaster',
+    project_name: 'Typing Master',
+    discription: 'Adding Soon',
+    link: 'Sherwood@rosamond.me'
+  },
+  {
+    id: 15,
+    img_id:editor,
+    code_link:'https://github.com/Ri-yan/TextEditor',
+    live_link:'https://github.com/Ri-yan/TextEditor',
+    project_name: 'TextEditor',
     discription: 'Adding Soon',
     link: 'Sherwood@rosamond.me'
   }

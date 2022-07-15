@@ -1,4 +1,5 @@
 import React from 'react';
+
 const Mcard = ({ id,name,email,message,joined }) => {
   return (
     <div className="Mcontainer">
@@ -8,7 +9,8 @@ const Mcard = ({ id,name,email,message,joined }) => {
       <div className='Mname'>Email : {email}</div>
       <div className='Mmessage'>Message : {message}</div>
       <div className='Mtime'>Time : {joined}</div>
-    </div>
+      <div className='reply'><a href={"mailto:" + email}>reply</a></div>  
+</div>
   </div>
   );
 }

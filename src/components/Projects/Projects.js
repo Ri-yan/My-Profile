@@ -22,7 +22,7 @@ const Projects=()=>{
 		                  live_link={Pro[i].live_link}
 		                  />
 		              );
-		            })
+		            }).reverse()
 		          }	
 			    </div>		
 			</div>

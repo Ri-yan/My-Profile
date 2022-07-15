@@ -3,6 +3,10 @@
   width: auto;
   position:relative;
 }
+*::-webkit-scrollbar{
+  behavior: smooth;
+  display: none;
+}
 
 .particles{
   position:fixed ; /*everything stays fixed*/
